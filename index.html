@@ -36,6 +36,14 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
+    <script type="text/javascript" src="jquery.embedVideo.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.1/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.1/plugins/jquery.lazy.youtube.min.js"></script>
+    <link rel="stylesheet" href="youCover.css">
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script src="youCover.js"></script>
+<script src="lazysizes.min.js" async></script>
    
 </head>
 
@@ -187,24 +195,195 @@
         <div class="indigo-lightest fw-600 fs-m1 lh-3 opacity-50 mx-10">Checkout videos and images of the products below.</div>
         <div id="slider-1">
 
-
-        <div class="relative w-100pc h-75vh bg-cover bg-b">
-                <iframe src="https://www.youtube.com/embed/-Rj3OvD82dE" allowfullscreen width=100% height="100%"></iframe>
-                </div>
-
+<!-- 
                 <div class="relative w-100pc h-75vh bg-cover bg-b">
-            <iframe src="https://www.youtube.com/embed/z49cVSsWm0c" allowfullscreen width=100% height="100%"></iframe>
+            <iframe  loading="lazy" src="https://www.youtube.com/embed/z49cVSsWm0c" allowfullscreen width=100% height="100%"></iframe>
             </div>
-            
+             -->
                 
-            <div class="relative w-100pc h-75vh bg-cover bg-b">
-                <iframe src="https://www.youtube.com/embed/F_c6_5-7OB4" allowfullscreen width=100% height="100%"></iframe>
+            <div class="relative w-100pc h-75vh bg-cover bg-b" style=" box-shadow: 6px 6px 10px hsl(206.5, 0%, 75%);">
+                    <iframe 
+                      style="position: absolute; top: 0; left:0; width: 100%; height: 100%; border: 0;"
+                      loading="lazy";
+                      srcdoc=" <style>
+                        * {
+                        padding: 0;
+                        margin: 0;
+                        overflow: hidden;
+                        }
+                        
+                        body, html {
+                          height: 100%;
+                        }
+                        
+                        img, svg {
+                          position: absolute;
+                          width: 100%;
+                          top: 0;
+                          bottom: 0;
+                          margin: auto;
+                        }
+                        
+                        svg {
+                          filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
+                          transition: all 250ms ease-in-out;
+                        }
+                        
+                        body:hover svg {
+                          filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
+                          transform: scale(1.2);
+                        }
+                      </style>
+                      <a href='https://www.youtube.com/embed/-Rj3OvD82dE?autoplay=1'>
+                        <img src='https://img.youtube.com/vi/-Rj3OvD82dE/maxresdefault.jpg' alt='Coffee Recipe Javascript Project'>
+                        <svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='#ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-play-circle'><circle cx='12' cy='12' r='10'></circle><polygon points='10 8 16 12 10 16 10 8'></polygon></svg>
+                      </a>"
+                      src="https://www.youtube.com/embed/-Rj3OvD82dE" 
+                      title="Coffee Recipe Javascript Project"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                      allowfullscreen>
+                    </iframe>
                 </div>
-            
-                
+
+                <div class="relative w-100pc h-75vh bg-cover bg-b" style=" box-shadow: 6px 6px 10px hsl(206.5, 0%, 75%);">
+                    <iframe 
+                      style="position: absolute; top: 0; left:0; width: 100%; height: 100%; border: 0;"
+                      loading="lazy";
+                      srcdoc=" <style>
+                        * {
+                        padding: 0;
+                        margin: 0;
+                        overflow: hidden;
+                        }
+                        
+                        body, html {
+                          height: 100%;
+                        }
+                        
+                        img, svg {
+                          position: absolute;
+                          width: 100%;
+                          top: 0;
+                          bottom: 0;
+                          margin: auto;
+                        }
+                        
+                        svg {
+                          filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
+                          transition: all 250ms ease-in-out;
+                        }
+                        
+                        body:hover svg {
+                          filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
+                          transform: scale(1.2);
+                        }
+                      </style>
+                      <a href='https://www.youtube.com/embed/z49cVSsWm0c?autoplay=1'>
+                        <img src='https://img.youtube.com/vi/z49cVSsWm0c/maxresdefault.jpg' alt='Coffee Recipe Javascript Project'>
+                        <svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='#ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-play-circle'><circle cx='12' cy='12' r='10'></circle><polygon points='10 8 16 12 10 16 10 8'></polygon></svg>
+                      </a>"
+                      src="https://www.youtube.com/embed/z49cVSsWm0c" 
+                      title="Coffee Recipe Javascript Project"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                      allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="relative w-100pc h-75vh bg-cover bg-b" style=" box-shadow: 6px 6px 10px hsl(206.5, 0%, 75%);">
+                    <iframe 
+                      style="position: absolute; top: 0; left:0; width: 100%; height: 100%; border: 0;"
+                      loading="lazy";
+                      srcdoc=" <style>
+                        * {
+                        padding: 0;
+                        margin: 0;
+                        overflow: hidden;
+                        }
+                        
+                        body, html {
+                          height: 100%;
+                        }
+                        
+                        img, svg {
+                          position: absolute;
+                          width: 100%;
+                          top: 0;
+                          bottom: 0;
+                          margin: auto;
+                        }
+                        
+                        svg {
+                          filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
+                          transition: all 250ms ease-in-out;
+                        }
+                        
+                        body:hover svg {
+                          filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
+                          transform: scale(1.2);
+                        }
+                      </style>
+                      <a href='https://www.youtube.com/embed/F_c6_5-7OB4?autoplay=1'>
+                        <img src='https://img.youtube.com/vi/F_c6_5-7OB4/maxresdefault.jpg' alt='Coffee Recipe Javascript Project'>
+                        <svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='#ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-play-circle'><circle cx='12' cy='12' r='10'></circle><polygon points='10 8 16 12 10 16 10 8'></polygon></svg>
+                      </a>"
+                      src="https://www.youtube.com/embed/F_c6_5-7OB4" 
+                      title="Coffee Recipe Javascript Project"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                      allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="relative w-100pc h-75vh bg-cover bg-b" style=" box-shadow: 6px 6px 10px hsl(206.5, 0%, 75%);">
+                    <iframe 
+                      style="position: absolute; top: 0; left:0; width: 100%; height: 100%; border: 0;"
+                      loading="lazy";
+                      srcdoc=" <style>
+                        * {
+                        padding: 0;
+                        margin: 0;
+                        overflow: hidden;
+                        }
+                        
+                        body, html {
+                          height: 100%;
+                        }
+                        
+                        img, svg {
+                          position: absolute;
+                          width: 100%;
+                          top: 0;
+                          bottom: 0;
+                          margin: auto;
+                        }
+                        
+                        svg {
+                          filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
+                          transition: all 250ms ease-in-out;
+                        }
+                        
+                        body:hover svg {
+                          filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
+                          transform: scale(1.2);
+                        }
+                      </style>
+                      <a href='https://www.youtube.com/embed/RvtnqkeTR2E?autoplay=1'>
+                        <img src='https://img.youtube.com/vi/RvtnqkeTR2E/maxresdefault.jpg' alt='Coffee Recipe Javascript Project'>
+                        <svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='#ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-play-circle'><circle cx='12' cy='12' r='10'></circle><polygon points='10 8 16 12 10 16 10 8'></polygon></svg>
+                      </a>"
+                      src="https://www.youtube.com/embed/RvtnqkeTR2E" 
+                      title="Coffee Recipe Javascript Project"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                      allowfullscreen>
+                    </iframe>
+                </div>
+<!--                 
                 <div class="relative w-100pc h-75vh bg-cover bg-b">
-                    <iframe src="https://www.youtube.com/embed/RvtnqkeTR2E" allowfullscreen width=100% height="100%"></iframe>
-                    </div>
+                    <iframe loading="lazy" src="https://www.youtube.com/embed/RvtnqkeTR2E" allowfullscreen  width=100% height="100%"></iframe>
+                    </div> -->
 
                        <img class="relative w-100pc h-75vh object-contain border absolute-fill " data-lazy = "assets/images/1250Va_ups_front.jpeg"> </img> 
 
@@ -491,7 +670,7 @@
 
     <div class="responsive-map w-100pc h-75vh ">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3247.4177728703803!2d77.65485715896074!3d12.853842043587827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6d82e429c475%3A0xdd54d58dcb46ccf4!2sNAMMA%20SOLAAR!5e0!3m2!1sen!2sin!4v1633318785921!5m2!1sen!2sin"
-         height="100%" width="100%" position="absolute" frameborder="0" style="border:0" allowfullscreen></iframe>
+         height="100%" width="100%" position="absolute" frameborder="0" style="border:0" allowfullscreen loading="lazy"></iframe>
         </div>
 
     <!-- footer -->
@@ -613,10 +792,13 @@
    
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://unpkg.com/feather-icons" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js" async></script>
     <script src="assets/js/script.js"></script>
+   
+    
+    
 </body>
 
 </html>
