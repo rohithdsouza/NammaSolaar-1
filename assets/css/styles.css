@@ -1,3 +1,7 @@
+body {
+    font-size: calc(0.75em + 1vmin);
+  }
+
 /* The Modal (background) */
 .modal {
     display:none;
@@ -79,33 +83,12 @@
     }
   }
 
-
-  .sale{
-    position: relative;
-    display: flex;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    background-color: #2196f3;
-    width: 110px;
-    height: fit-content;
-    margin-bottom: 20px;
-    right: -1100px;
-}
-.sale::after{
-    content: "";
-    position: absolute;
-    border: 19px solid;
-    border-color: transparent #ddd transparent transparent;
-    right: 0;
-    top: 0;
-}
-
 .main{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding:10px;
 }
 @media (min-width: 700px) {
     .main {
@@ -113,6 +96,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
+        padding:20px;
     }
   }
   @media (min-width: 700px) {
@@ -169,7 +153,7 @@
     padding-left: 15px;
     border-bottom: 1px solid #ddd;
     transition-duration: 0.4s;
-    overflow: hidden;
+    overflow:hidden;
 }
 .basic div:not(:first-child):hover,.professional div:not(:first-child):hover{
     font-weight: bold;
