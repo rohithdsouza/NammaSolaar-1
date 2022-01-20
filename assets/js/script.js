@@ -12,8 +12,6 @@ $(document).ready(function () {
     // smooth scroll
     var scroll = new SmoothScroll('a[href*="#"]');
 
-   
-
     // tiny slider
     $('#slider-1').slick({
         infinite: true,
