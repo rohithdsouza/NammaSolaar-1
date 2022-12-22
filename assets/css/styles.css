@@ -2,6 +2,12 @@ body {
     font-size: calc(0.75em + 1vmin);
   }
 
+div div a img {
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
+}
+
 /* The Modal (background) */
 .modal {
     display:none;
