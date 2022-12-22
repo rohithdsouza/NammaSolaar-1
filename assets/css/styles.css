@@ -6,6 +6,7 @@ div div a img {
   height: 400px;
   width: 100%;
   object-fit: contain;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 /* The Modal (background) */
